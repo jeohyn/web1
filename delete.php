@@ -1,7 +1,7 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
 session_start();
-$db = mysqli_connect('localhost', 'root', 'jeohyn123', 'login');
+$db = mysqli_connect('localhost', 'root', password, 'login');
 //데이터 베이스 연결하기
 
 if(!isset($_GET['id'])) die('ERROR : 어떤 글을 삭제할지 알 수 없습니다.');
