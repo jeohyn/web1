@@ -1,7 +1,7 @@
 <?php
 	header('Content-Type: text/html; charset=utf-8');
 	session_start();
-	$db = mysqli_connect('localhost', 'root', password,, 'login');
+	$db = mysqli_connect('localhost', 'root', password, 'login');
      //데이터 베이스 연결하기
 
     $name = $_POST['name'];
